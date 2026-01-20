@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <style>
+        #loading-gif {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mostrar contenido al hacer clic en el contenedor</h1>
+
+    <form onclick="sacardatos('sleep.php','contenedor')">
+        <input type="button" value="Mostrar Fecha y Hora PHP" onclick="sacardatos('fecha.php','contenedor')">
+    </form>
+    
+    <div id="contenedor" style="background-color:#e0f7fa; padding:10px;">
+    </div>
+    
+    <script src="ej9.js"></script>
+</body>
+</html>

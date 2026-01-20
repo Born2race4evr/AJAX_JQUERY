@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludar con Parámetros GET</title>
+</head>
+<body>
+    <h1>Envía un Nombre a PHP</h1>
+    
+    <form>
+        <label for="nombre">Introduce tu nombre:</label>
+        <input type="text" id="nombre" value="Mundo"> 
+        <input type="button" value="Enviar Saludo" onclick="sacardatos('ej.php','contenedor')">
+    </form>
+
+    <div id="contenedor" style="background-color:#e0f7fa; padding:10px;">
+        <p>Aquí aparecerá el saludo de PHP.</p>
+    </div>
+
+    <script src="ej7.js"></script>
+</body>
+</html>
