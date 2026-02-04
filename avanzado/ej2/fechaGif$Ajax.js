@@ -1,7 +1,10 @@
 function mostrarFecha() {
 
     $.ajax({
-        url: "ej2.php",
+        url: "fecha.php",
+        beforeSend: function() {
+            $("#resultado").html('<img src="loading.gif" alt="Cargando...">');
+        }
     })
     .done(function( respuesta ) {
         $("#resultado").html(respuesta);

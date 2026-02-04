@@ -1,0 +1,51 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Tabs - Default functionality</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <style>
+        .slider img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+        .slick-prev:before, .slick-next:before { color: black; }
+        .slider { width: 80%; margin: 50px auto; }
+    </style>
+</head>
+<body>
+
+    <div class="slider demo">
+        <div><img src="images.jpeg"></div>
+        <div><img src="ci2.jpeg"></div>
+        <div><img src="si.jpeg"></div>
+
+    </div>
+ 
+    <div id="tabs">
+    <ul>
+        <li><a href="#tabs-1">TAB 1</a></li>
+        <li><a href="#tabs-2">TAB 2</a></li>
+        <li><a href="#tabs-3">TAB 3</a></li>
+    </ul>
+    <div id="tabs-1">
+        <p>Un texto</p>
+    </div>
+    <div id="tabs-2">
+        <p>Otro texto</p>
+    </div>
+    <div id="tabs-3">
+        <p>Algo más??</p>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="plugWid.js"></script>
+ 
+</body>
+</html>
