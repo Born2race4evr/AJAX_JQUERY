@@ -1,4 +1,10 @@
-<nota>
-    <emisor>Julio</emisor>
-    <mensaje>Hola, esto es un mensaje desde XML</mensaje>
-</nota>
+<notas>
+    <nota>
+        <emisor>Julio</emisor>
+        <mensaje>Hola, esto es un mensaje desde XML</mensaje>
+    </nota>
+    <nota>
+        <emisor>Pepe</emisor>
+        <mensaje>Me gustan robustos</mensaje>
+    </nota>
+</notas>

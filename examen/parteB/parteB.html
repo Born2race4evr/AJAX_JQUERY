@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="parteB.js"></script>
+</head>
+
+<body>
+
+    <div id="divTxt"></div>
+
+    <input type="radio" name="opciones" value="600" id="marruecos" onchange="mostrarPrecio()"> Marruecos
+    <br>
+    <input type="radio" name="opciones" value="1000" id="india" onchange="mostrarPrecio()"> India
+    
+
+    <div id="divPrecio"></div>
+    
+    <label>
+        <input type="checkbox" id="checkOp" onchange="divTxt()"> 
+        Extras oferta 
+    </label>
+
+</body>
+
+</html>
